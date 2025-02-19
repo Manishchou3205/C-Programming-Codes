@@ -7,7 +7,7 @@ void deleteElement(int arr[], int *n, int index) {
         return;
     }
 
-    // Shift elements to the left to delete the element
+    
     for (int i = index; i < *n - 1; i++) {
         arr[i] = arr[i + 1];
     }
